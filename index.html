@@ -4,8 +4,9 @@
     <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <link rel='stylesheet' href='main.css/landing.css'>
     <link rel='stylesheet' href='main.css/body.css'>
+    <link rel='stylesheet' href='main.css/landing.css'>
+    <link rel='stylesheet' href='main.css/about.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel='preconnect' href='https://fonts.googleapis.com'>
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
@@ -14,7 +15,10 @@
 </head>
 <body>
     <div class='wrapper'>
-        <header>
+        <a id='top'></a>
+        <header id='landing'>
+            <img src='assets/top.png' class='foreground'>
+            <img src='assets/bottom.png' class='background'>
             <section id='landing-container'>
                 <div id='top-row'>
                     <div id='top-name'>
@@ -22,10 +26,11 @@
                         <h1>CASS</h1>
                     </div>
                     <div id='top-links'>
-                        <a>about</a>
+                        <a href='#about'>about</a>
                         <a>projects</a>
                         <a>skills</a>
                         <a>resume</a>
+                        <a>contact</a>
                     </div>
                 </div>
                 <div id='mid-row'>
@@ -41,8 +46,21 @@
                 </div>
             </section>
         </header>
-        <nav>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ea nostrum quo exercitationem in voluptas aspernatur veritatis obcaecati et quia? Eius sed dolore a. Ex, suscipit! Quod quis vitae velit!</nav>
-        <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus ut corrupti sit illum laboriosam velit temporibus aperiam debitis voluptatem. Recusandae possimus quis ipsa minus quos omnis velit, vel neque.</section>
+        <nav>
+            <div id='nav-link-left'>
+                <a class='nav-link' href='#top'>back to the top</a>
+            </div>
+            <div id='nav-link-right'>
+            <a class='nav-link'>about me</a>
+            <a class='nav-link'>projects</a>
+            <a class='nav-link'>skills</a>
+            <a class='nav-link'>resume</a>
+            <a class='nav-link'>contact</a>
+            </div>
+        </nav>
+        <section id='about'>
+            <h3>about me!</h3>
+        </section>
     </div>
 </body>
 </html>

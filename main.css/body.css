@@ -9,6 +9,36 @@ body {
     color: white;
 }
 
+nav {
+    background: #0505054d;
+    backdrop-filter: blur(30px);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.nav-link {
+    margin: 0;
+    padding: 0 2rem;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+#nav-link-left, #nav-link-right {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

@@ -67,7 +67,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 #top-links > a {
@@ -75,7 +75,7 @@ header {
 }
 
 #mid-row {
-    margin: 2rem;
+    margin: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
