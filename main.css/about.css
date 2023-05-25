@@ -2,3 +2,22 @@
     background: #1a1a1a;
     margin: 0;
 }
+
+#about-contents {
+    padding: 0 5% 10rem;
+}
+
+h3 {
+    margin: 0;
+    padding: 3rem 10% 0;
+    font-size: 2.5rem;
+}
+
+p {
+    padding: 2rem 22% 0;
+    font-size: 1.3rem;
+    font-family: 'Pathway Extreme', sans-serif;
+    text-indent: 2rem;
+    line-height: 2rem;
+    word-spacing: 0.4rem;
+}
