@@ -30,8 +30,21 @@ h4 {
     align-items: center;
 }
 
+#tech-icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .tech-icon {
-    width: 3.5vw;
+    height: 3.2vw;
+    width: 3.2vw;
+    padding: 1.5vw;
+}
+
+#nodejs-icon {
+    height: 4vw;
     padding: 1.5vw;
 }
 
@@ -41,6 +54,43 @@ h4 {
 }
 
 #django-icon {
-    height: 5vw;
+    height: 6vw;
     padding: 1.5vw;
+}
+
+#contact-contents {
+    padding-bottom: 4%;
+}
+
+#contact-links-container {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-links-container > a {
+    padding: 3vw;
+    color: rgb(179, 179, 179);
+    text-decoration: none;
+}
+
+#contact-links-container > a:hover {
+    color: white;
+}
+
+#easter-egg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2vw;
+}
+
+#easter-egg > a {
+    padding-bottom: 2vh;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+#easter-egg > a:hover {
+    color: #4b4b4b;
 }
