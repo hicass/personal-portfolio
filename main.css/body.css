@@ -5,7 +5,6 @@ body {
     animation: gradient 30s ease infinite;
     margin: 0;
     overscroll-behavior: none;
-    font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -19,14 +18,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link {
     margin: 0;
     padding: 0 2rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2vw;
     text-decoration: none;
 }
 
@@ -37,7 +36,6 @@ nav {
 #nav-link-left, #nav-link-right {
     display: flex;
     align-items: center;
-    font-size: 2rem;
 }
 
 @keyframes gradient {
