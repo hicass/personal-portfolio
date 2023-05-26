@@ -9,6 +9,11 @@ h3 {
     font-size: 2.5rem;
 }
 
+h4 {
+    margin: 0;
+    font-size: 2rem;
+}
+
 p {
     margin: 0;
     padding: 2rem 22% 0;
@@ -19,6 +24,29 @@ p {
     word-spacing: 0.4rem;
 }
 
-hr {
+#skills-p {
+    padding: 2rem 0 0 5%;
+}
+
+#skills-content {
     margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#skills-content > div {
+    padding:  0 5%;
+    margin: 0;
+}
+
+.tech-icon {
+    height: 3rem;
+}
+
+#mongodb-icon {
+    height: 4.5rem;
+}
+
+#django-icon {
+    height: 4rem;
 }
