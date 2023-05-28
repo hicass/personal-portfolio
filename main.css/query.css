@@ -1,0 +1,138 @@
+@media screen and (max-width: 950px) {
+    header {
+        height: 60vw;
+    }
+    
+    #landing-container {
+        height: 40vw;
+        margin-top: 8%;
+    }
+
+    .background {
+        transform: translateZ(-4px) translateY(-25px) scale(1.6);
+    }
+
+    .foreground {
+        transform: translateZ(-4px) translateY(-25px) scale(1.6);
+    }
+
+    .nav-link {
+        padding: 0 2vw;
+        font-size: 2.5vw;
+    }
+
+    h3 {
+        font-size: 3vw;
+    }
+
+    #about-contents, #skills-contents, #projects-contents, #contact-contents {
+        font-size: 2.2vw;
+        line-height: 3vw;
+        word-spacing: 0.6vw;
+    }
+
+    #easter-egg > a {
+        font-size: 2vw;
+    }
+
+    .tech-icon {
+        height: 5vw;
+        width: 5vw;
+        padding: 2vw;
+    }
+
+    #nodejs-icon {
+        height: 5.5vw;
+        padding: 2vw;
+    }
+
+    #mongodb-icon {
+        height: 7vw;
+        padding: 2vw;
+    }
+
+    #django-icon {
+        height: 8vw;
+        padding: 2vw;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .background {
+        transform: translateZ(-6px) translateY(-30px) scale(2);
+    }
+
+    .foreground {
+        transform: translateZ(-4px) translateY(-10px) scale(1.8);
+    }
+
+    h2 {
+        margin: 3.8vw;
+        font-size: 4vw;
+    }
+
+    h1 {
+        margin: -4vw 3.3vw;
+        font-size: 5.5vw;
+    }
+
+    #mid-bio {
+        margin: 3vw 0;
+        font-size: 3vw;
+    }
+
+    #top-links > a {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        padding: 0 1.5vw;
+        font-size: 2.8vw;
+    }
+
+    h3 {
+        font-size: 4vw;
+    }
+
+    #about-contents, #skills-contents, #projects-contents, #contact-contents {
+        padding: 2% 10% 2%;
+        font-size: 2.8vw;
+        line-height: 3.4vw;
+        word-spacing: 0.8vw;
+    }
+
+    #easter-egg > a {
+        font-size: 3vw;
+    }
+
+    .tech-icon {
+        height: 6vw;
+        width: 6vw;
+        padding: 2vw;
+    }
+
+    #nodejs-icon {
+        height: 6.5vw;
+        padding: 2vw;
+    }
+
+    #mongodb-icon {
+        height: 9vw;
+        padding: 2vw;
+    }
+
+    #django-icon {
+        height: 9vw;
+        padding: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .background {
+        transform: translateZ(-6px) translateY(-70px) scale(2);
+    }
+
+    .foreground {
+        transform: translateZ(-4px) translateY(-10px) scale(1.8);
+    }
+}

@@ -22,6 +22,7 @@ h4 {
     font-family: 'Montserrat', sans-serif;
     line-height: 2.5vw;
     word-spacing: 0.3vw;
+    transition: all 0.5s;
 }
 
 #skills-content {

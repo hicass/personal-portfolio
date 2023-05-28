@@ -24,13 +24,14 @@ nav {
 .nav-link {
     margin: 0;
     padding: 0 2rem;
-    color: white;
+    color: rgb(201, 201, 201);
     font-size: 2vw;
     text-decoration: none;
 }
 
 .nav-link:hover {
     cursor: pointer;
+    color: white;
 }
 
 #nav-link-left, #nav-link-right {
