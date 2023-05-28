@@ -1,3 +1,7 @@
+*, html {
+    scroll-behavior: smooth !important;
+}
+
 body {
     background: linear-gradient(75deg, #0e0e0e, #262626, 
     #101010, #252525, #1a1a1a);
@@ -27,6 +31,7 @@ nav {
     color: rgb(201, 201, 201);
     font-size: 2vw;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 .nav-link:hover {
