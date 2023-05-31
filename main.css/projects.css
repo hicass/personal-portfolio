@@ -1,0 +1,48 @@
+.project-item {
+    margin: 5% 0 10%; 
+    display: flex;
+    align-items: center;
+}
+
+.project-item-contents {
+    margin: 0 5%;
+}
+
+.project-img {
+    height: 15vw;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid #434343;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem rgba(132, 132, 132, 0.12);
+}
+
+.project-link {
+    font-size: 2vw;
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+}
+
+.project-link:hover, .repo-link:hover {
+    color: white;
+}
+
+.built-using-txt {
+    color: rgb(201, 201, 201);
+}
+
+#tech-stack {
+    margin: 0;
+    padding-bottom: 3%;
+}
+
+.repo-link {
+    display: flex;
+    align-items: center;
+    color: rgb(201, 201, 201);
+    text-decoration: none;
+}
+
+.code-icon {
+    padding-left: 0.5vw;
+}

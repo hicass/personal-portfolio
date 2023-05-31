@@ -7,8 +7,10 @@
     <link rel='stylesheet' href='main.css/body.css'>
     <link rel='stylesheet' href='main.css/landing.css'>
     <link rel='stylesheet' href='main.css/content-areas.css'>
+    <link rel='stylesheet' href='main.css/projects.css'>
     <link rel='stylesheet' href='main.css/query.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel='preconnect' href='https://fonts.googleapis.com'>
     <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jura&family=Montserrat:wght@200&family=Pathway+Extreme:wght@100&display=swap" rel="stylesheet">
@@ -108,10 +110,58 @@
         <section id='projects' class='area'>
             <h3>projects</h3>
             <div id='projects-contents'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus nihil, quisquam optio impedit nam aliquam adipisci suscipit. Quam laboriosam qui autem dignissimos sapiente consequatur officia voluptatem dolor quas esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus nihil, quisquam optio impedit nam aliquam adipisci suscipit. Quam laboriosam qui autem dignissimos sapiente consequatur officia voluptatem dolor quas esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus nihil, quisquam optio impedit nam aliquam adipisci suscipit. Quam laboriosam qui autem dignissimos sapiente consequatur officia voluptatem dolor quas esse.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus nihil, quisquam optio impedit nam aliquam adipisci suscipit. Quam laboriosam qui autem dignissimos sapiente consequatur officia voluptatem dolor quas esse.</p>
+                <div class='project-item'>
+                    <div class='project-item-contents'>
+                        <a class='project-link' href='https://chirpcw.herokuapp.com/' target='_blank'>
+                            Chirp
+                            <i class="fa fa-long-arrow-right">
+                            </i>
+                        </a>
+                        <p>
+                            Chirp is a Twitter mock app designed specifically for complaining. 
+                            It uses an emotion analysis API to accept or reject posts based on 
+                            complaint-like sentiments, providing a dedicated space for venting 
+                            frustrations.
+                        </p>
+                        <div>
+                            <span class='built-using-txt'>Built using:</span>
+                            <p id='tech-stack'>
+                                HTML, CSS, JavaScript, MongoDb, Express.js, Node.js, Twinword API
+                            </p>
+                            <a class='repo-link' href='https://github.com/hicass/chirp' target='_blank'>
+                                View on GitHub 
+                                <span class='fa fa-code code-icon'>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <img class='project-img' src='/assets/chirp.png'>
+                </div>
+                <div class='project-item'>
+                    <img class='project-img' src='/assets/mancala.png'>
+                    <div class='project-item-contents'>
+                        <a class='project-link' href='https://hicass.github.io/mancala/' target='_blank'>
+                            Mancala
+                            <span class="fa fa-long-arrow-right">
+                            </span>
+                        </a>
+                        <p>
+                            The digital adaptation of the ancient board game. Two 
+                            players take turns strategically distributing the number
+                            of pebbles contained inside each of the pits 
+                            counter-clockwise around the board, until there is a winner.
+                        </p>
+                        <div>
+                            <span class='built-using-txt'>Built using:</span>
+                            <p id='tech-stack'>HTML, CSS, JavaScript</p>
+                            <a class='repo-link' href='https://github.com/hicass/mancala'>
+                                View on GitHub 
+                                <i class='fa fa-code code-icon'>
+                                </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id='contact' class='area'>
