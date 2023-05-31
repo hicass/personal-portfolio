@@ -60,15 +60,14 @@ header {
 
 h2 {
     margin: 2rem 2rem 0; 
-    font-size: 4vw;
+    font-size: 3vw;
     transition: all 0.5s;
     font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-    margin: -0.5rem 1.8rem;
-    font-family: 'Jura', sans-serif;
-    font-size: 6vw;
+    margin: -12% 1.8rem;
+    font-size: 7vw;
     transition: all 0.5s;
     text-shadow: 0.6rem 0.4rem 0.4rem #272727;
 }
@@ -81,7 +80,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     position: relative;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
 }
 
 #top-links > a {
@@ -96,27 +95,27 @@ h1 {
 
 #top-about-link {
     position: absolute;
-    top: 4vw;
+    top: 3vw;
 }
 
 #top-skills-link {
     position: absolute;
-    top: 7vw;
+    top: 6vw;
 }
 
 #top-projects-link {
     position: absolute;
-    top: 10vw;
+    top: 9vw;
 }
 
 #top-resume-link {
     position: absolute;
-    top: 13vw;
+    top: 12vw;
 }
 
 #top-contact-link {
     position: absolute;
-    top: 16vw;
+    top: 15vw;
 }
 
 #mid-row {
@@ -131,22 +130,22 @@ h1 {
     margin: 7% 0 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5vw;
+    font-size: 2vw;
     transition: all 0.6s;
 }
 
 #mid-row-links {
-    width: 40vw;
-    margin: 3vw 0 0;
+    width: 30vw;
+    margin: 2vw 0 0;
     position: relative;
 }
 
 #mid-row-links > a {
     transition: all 0.2s;
-    font-size: 4vw;
+    font-size: 2.5vw;
     color: white;
     text-decoration: none;
-    transition: all 0.6s;
+    transition: all 0.3s;
 }
 
 .fa-linkedin {
@@ -164,7 +163,7 @@ h1 {
 }
 
 #mid-row-links > a:hover {
-    font-size: 5vw;
+    font-size: 3.5vw;
     color: white;
     text-shadow: 0 0.5rem 0.2rem #242424;
 }

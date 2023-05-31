@@ -1,3 +1,71 @@
+@media screen and (min-width: 1500px) {
+    #landing-container {
+        height: 35vw;
+        width: 60vw;
+    }
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+    }
+
+    #top-links {
+        font-size: 1.4vw;
+    }
+
+    #top-links > a:hover {
+        font-size: 2vw;
+    }
+    
+    #top-about-link {
+        position: absolute;
+        top: 2vw;
+    }
+    
+    #top-skills-link {
+        position: absolute;
+        top: 4.5vw;
+    }
+    
+    #top-projects-link {
+        position: absolute;
+        top: 7vw;
+    }
+    
+    #top-resume-link {
+        position: absolute;
+        top: 9.5vw;
+    }
+    
+    #top-contact-link {
+        position: absolute;
+        top: 12vw;
+    }
+
+    #mid-bio {
+        font-size: 1.8vw;
+    }
+
+    .nav-link {
+        font-size: 1.8vw;
+    }
+
+    #about-contents, #skills-contents, #projects-contents, #contact-contents {
+        padding: 0 25% 2%;
+        font-size: 1.2vw;
+        line-height: 2vw;
+        word-spacing: 0.3vw;
+    }
+
+    h3 {
+        padding-left: 15%;
+        font-size: 2vw;
+    }
+}
+
 @media screen and (max-width: 950px) {
     header {
         height: 60vw;
