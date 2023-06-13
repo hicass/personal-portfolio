@@ -43,6 +43,11 @@ h4 {
     padding: 1.5vw;
 }
 
+#react-icon {
+    height: 4vw;
+    width: 4.5vw;
+}
+
 #nodejs-icon {
     height: 4vw;
     padding: 1.5vw;
